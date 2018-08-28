@@ -1,0 +1,28 @@
+.user-profile-main-dashboard{
+  display: block;
+  padding: 0px 10px;
+  margin-right: 50px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.user-profile-hosting {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  height: 85px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.user-hosting-true {
+  color: #41b866;
+}
+
+.user-hosting-false {
+  color: #c63d43;
+}

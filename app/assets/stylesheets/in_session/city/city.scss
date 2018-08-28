@@ -1,0 +1,100 @@
+.city-view-main-body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: #27374c;
+}
+
+.city-view-main-body > div {
+  display: block;
+  margin: auto;
+  height: 400px;
+  margin: 0px 20px 0px 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.city-view-body-header > h2 {
+  margin-top: 25px;
+}
+
+.city-view-body-header {
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 2px solid grey;
+  background-image: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 60%, transparent 90%);
+}
+
+.city-hosts-body {
+  text-align: center;
+}
+
+.city-view-host-box {
+  background-color: #fff;
+  width: 400px;
+  height: 200px;
+}
+
+.city-host-info {
+  display: flex;
+  list-style: none;
+  width: 400px;
+  height: 200px;
+  border: 1px solid lightgrey;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.city-host-info-photo {
+  display: inline-block;
+  background-image: image-url('astronaut.jpg');
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.city-host-info-container {
+  display: inline-block;
+  width: 200px;
+  margin: 0px;
+}
+
+.city-hosts-header {
+  width: 100%;
+}
+
+.host-info-hosting-no {
+  color: #c63d43;
+}
+
+.host-info-hosting-yes {
+  color: #41b866;
+}
+
+.New.York-view-banner {
+  background-image: image-url('city/newyork_banner.jpg');
+}
+
+.San.Francisco-view-banner {
+  background-image: image-url('city/sanfrancisco_banner.jpg');
+}
+
+.Los.Angeles-view-banner {
+  background-image: image-url('city/losangeles_banner.jpg');
+}
+
+.DC-view-banner {
+  background-image: image-url('city/dc_banner.jpg');
+}
+
+.Rome-view-banner {
+  background-image: image-url('city/rome_banner.jpg');
+}
+
+.Paris-view-banner {
+  background-image: image-url('city/paris_banner.jpg');
+}

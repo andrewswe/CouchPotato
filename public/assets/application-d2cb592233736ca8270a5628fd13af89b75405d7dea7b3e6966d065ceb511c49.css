@@ -1,0 +1,857 @@
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/body.scss */
+.user-dashboard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  color: #27374c;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* line 10, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/body.scss */
+.user-profile-view {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  color: #27374c;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.user-dashboard-main {
+  display: block;
+  padding: 0px 10px;
+  margin-right: 50px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* line 12, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.dashboard-cities {
+  background: #fff;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  color: #287FB8;
+}
+
+/* line 21, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.explore-cities-header {
+  box-sizing: border-box;
+  display: flex;
+  line-height: 1.5px;
+  padding: 0px 0px 20px 20px;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+}
+
+/* line 30, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.explore-cities-header > i {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+/* line 36, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.explore-cities-header > h2 {
+  padding-left: 5px;
+}
+
+/* line 40, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.explore-cities-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* line 47, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.explore-cities-body > div {
+  box-shadow: 1px;
+  display: block;
+  height: 200px;
+  width: 30%;
+  background-size: cover;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/* line 59, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.explore-cities-body > div:hover {
+  transform: scale(1.01, 1.01);
+}
+
+/* line 63, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 90%);
+}
+
+/* line 72, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-New.York {
+  background-image: url(/assets/city/newyork_img-8ac0a3c8c50da3c7c58d16244a865b010541158dce52e4100666acf6ff4cbccd.jpg);
+}
+
+/* line 76, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-San.Francisco {
+  background-image: url(/assets/city/sanfrancisco_img-e662f723e032d54f7e0a87d79fa61bee162c4944265b4a463ce719928b61fa3e.jpg);
+}
+
+/* line 80, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-DC {
+  background-image: url(/assets/city/dc_img-a4124fb857efd30b11a53197531d49278990b9bc8832461e448fe636ec2fda01.jpg);
+}
+
+/* line 84, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-Los.Angeles {
+  background-image: url(/assets/city/losangeles_img-4fc888efe2fa2133e78cccbe112c173e69d3adc7b199adee21020979e21268ed.jpg);
+}
+
+/* line 88, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-Rome {
+  background-image: url(/assets/city/rome_img-0e7a9ee6ce3731e24f68e5ea094c01aacb6d70aaec870e150a02a700eb7d5231.jpg);
+}
+
+/* line 92, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/explore.scss */
+.city-box-Paris {
+  background-image: url(/assets/city/paris_img-9b83cbc50e86e3691bda4f6a819d5031e8c7c3c7eb6704918f698f5d61234e98.jpg);
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_hosting.scss */
+.user-profile-main-dashboard {
+  display: block;
+  padding: 0px 10px;
+  margin-right: 50px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* line 11, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_hosting.scss */
+.user-profile-hosting {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  height: 85px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 22, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_hosting.scss */
+.user-hosting-true {
+  color: #41b866;
+}
+
+/* line 26, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_hosting.scss */
+.user-hosting-false {
+  color: #c63d43;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-profile-info {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #287FB8;
+}
+
+/* line 11, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-info-header {
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  padding: 20px;
+  color: #287FB8;
+}
+
+/* line 20, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-info-header > a {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 27, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-info-body {
+  display: block;
+  box-sizing: border-box;
+}
+
+/* line 33, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-info-body > p {
+  font-size: 15px;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px;
+}
+
+/* line 41, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-spot-info {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* line 50, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-spot-info-header {
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  padding: 20px;
+  color: #287FB8;
+}
+
+/* line 59, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-spot-info-header > a {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 66, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-spot-info-body {
+  display: block;
+  box-sizing: border-box;
+}
+
+/* line 71, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/body/user_profile_user_info.scss */
+.user-spot-info-body > p {
+  font-size: 15px;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.nav-elements {
+  height: 100%;
+  color: #27374c;
+}
+
+/* line 6, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.user-nav-elements {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+  width: auto;
+  margin-top: 22px;
+  line-height: 20px;
+}
+
+/* line 15, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.user-nav-elements > li {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* line 20, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.user-nav-elements > li:hover {
+  color: #ED6504;
+}
+
+/* line 24, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.user-nav-message-box {
+  font-size: 20px;
+  font-weight: bold;
+  color: #929dad;
+}
+
+/* line 30, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.user-nav-logout-btn {
+  cursor: pointer;
+  margin: 0px 12px 0px 0px;
+  background-color: #287FB8;
+  border-color: #287FB8;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  border: 1px solid #287FB8;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+  line-height: 10px;
+}
+
+/* line 47, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/header.scss */
+.user-nav-logout-btn:hover {
+  background-color: #ED6504;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/sidebar.scss */
+.user-dashboard-sidebar {
+  padding: 0px 10px;
+  width: 300px;
+  height: 100%;
+}
+
+/* line 7, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/sidebar.scss */
+.sidebar-elements-user-info {
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  margin: 10px auto;
+  position: relative;
+}
+
+/* line 15, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/sidebar.scss */
+.sidebar-user-info-header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  padding: 20px 20px 0 20px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 27, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/sidebar.scss */
+.sidebar-user-icon {
+  font-size: 225px;
+  margin-bottom: 25px;
+  text-align: center;
+  display: block;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border: 4px solid #EAECEE;
+  overflow: hidden;
+}
+
+/* line 40, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/sidebar.scss */
+.sidebar-user-info-header > span {
+  margin: 0;
+  padding: 20px;
+}
+
+/* line 45, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/sidebar.scss */
+.sidebar-user-info-hosting-status {
+  padding: 20px 20px;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/user_sidebar.scss */
+.user-dashboard-sidebar {
+  padding: 0px 10px;
+  width: 300px;
+  height: 100%;
+}
+
+/* line 7, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/user_sidebar.scss */
+.sidebar-elements-user-info {
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  margin: 10px auto;
+  position: relative;
+}
+
+/* line 15, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/user_sidebar.scss */
+.sidebar-user-info-header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  padding: 20px 20px 0 20px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 27, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/user_sidebar.scss */
+.sidebar-user-icon {
+  font-size: 225px;
+  margin-bottom: 25px;
+  text-align: center;
+  display: block;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border: 4px solid #EAECEE;
+  overflow: hidden;
+}
+
+/* line 40, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/user_sidebar.scss */
+.sidebar-user-info-header > span {
+  margin: 0;
+  padding: 20px;
+}
+
+/* line 45, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/in_session/sidebar/user_sidebar.scss */
+.sidebar-user-info-hosting-status {
+  padding: 20px 20px;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body.scss */
+landing-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip {
+  list-style: none;
+  background-image: url(/assets/landing/couchsurfing_main_background-0c56538cda235c5806dc956559fe942179937b39d686329158cd1987801ce115.jpg);
+  height: 600px;
+  min-height: 600px;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+/* line 14, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip-contents {
+  position: relative;
+  top: 200px;
+  color: white;
+  font-weight: normal;
+  text-shadow: 0.5px 0.5px grey;
+}
+
+/* line 22, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip-contents > h2 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+/* line 27, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip-header {
+  font-size: 56px;
+}
+
+/* line 31, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip-subheader {
+  font-size: 24px;
+}
+
+/* line 35, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip-sessions {
+  list-style: none;
+  padding-left: 0px;
+  min-width: 230px;
+  position: relative;
+}
+
+/* line 42, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.landing-join-strip-sessions > li > button > a {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* line 48, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.facebook-signup-btn {
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+  color: white;
+  cursor: pointer;
+  height: 49px;
+  width: 232px;
+  border-radius: 3px;
+}
+
+/* line 58, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/body/body_join_strip.scss */
+.email-signup-btn {
+  background-color: #ED6504;
+  border: 1px solid #ED6504;
+  color: white;
+  cursor: pointer;
+  height: 49px;
+  width: 230px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.nav-elements {
+  display: block;
+  max-width: 1280px;
+  margin-top: 0;
+}
+
+/* line 7, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.session-options {
+  list-style: none;
+  display: flex;
+  margin: 10px 20px 0px 0px;
+}
+
+/* line 13, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.logo {
+  margin-top: 13px;
+  margin-left: 20px;
+  color: #e07700;
+}
+
+/* line 19, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.signup-btn {
+  margin: 0px 12px 0px 0px;
+  background-color: #287FB8;
+  border-color: #287FB8;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  max-width: 240px;
+  width: 160px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+/* line 33, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.signup-btn > a {
+  width: 134px;
+  height: 22px;
+  text-align: center;
+  font-style: normal;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1px;
+  padding: 8px 12px 8px 12px;
+}
+
+/* line 46, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.login-btn {
+  margin: 0px 12px 0px 0px;
+  background-color: #fff;
+  border-color: #287FB8;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  border: 1px solid #287FB8;
+  color: #287FB8;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+/* line 61, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.login-btn > a {
+  width: 134px;
+  height: 22px;
+  text-align: center;
+  font-style: normal;
+  color: #287FB8;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1px;
+  padding: 8px 12px 8px 12px;
+}
+
+/* line 74, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.demo-btn {
+  margin: 0px 12px 0px 0px;
+  background-color: #287FB8;
+  border-color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+/* line 89, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/header/header.scss */
+.demo-btn > a {
+  width: 134px;
+  height: 22px;
+  text-align: center;
+  font-style: normal;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1px;
+  padding: 8px 12px 8px 12px;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal.scss */
+.session-modal-main {
+  background: #000;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 10;
+}
+
+/* line 12, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal.scss */
+.session-modal-box {
+  top: 30px;
+  height: 560px;
+  width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  display: block;
+  background-color: #fff;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.session-login-box {
+  display: block;
+  width: 500px;
+  height: 560px;
+  top: 20px;
+  opacity: 1;
+}
+
+/* line 9, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.session-login-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 28px 60px 28px 40px;
+}
+
+/* line 14, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-heading {
+  box-sizing: border-box;
+  height: 24;
+  width: 400;
+  display: block;
+  height: 24px;
+}
+
+/* line 22, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-heading > h3 {
+  display: block;
+  box-sizing: border-box;
+  color: #34495e;
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* line 32, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-form {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  top: 0em;
+  align-items: center;
+}
+
+/* line 41, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-errors {
+  list-style: none;
+  padding: 0px;
+}
+
+/* line 46, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-errors > li {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 15px 17px 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: rgba(198, 61, 67, 0.25);
+  color: #3e1214;
+  text-align: center;
+}
+
+/* line 57, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-errors > li > a {
+  margin: auto;
+}
+
+/* line 61, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-input {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 402px;
+  padding: 12px 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/* line 72, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-password-input {
+  -webkit-text-security: value;
+}
+
+/* line 76, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_login.scss */
+.login-submit {
+  margin-top: 40px;
+  border-radius: 3px;
+  width: 394px;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #287FB8;
+  background-color: #287FB8;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  color: white;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 1, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.session-signup-box {
+  display: block;
+  width: 500px;
+  height: 560px;
+  top: 20px;
+  opacity: 1;
+}
+
+/* line 9, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.session-signup-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 28px 60px 28px 40px;
+}
+
+/* line 14, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-heading {
+  box-sizing: border-box;
+  height: 24;
+  width: 400;
+  display: block;
+  height: 24px;
+}
+
+/* line 22, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-heading > h3 {
+  display: block;
+  box-sizing: border-box;
+  color: #34495e;
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* line 32, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-form {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  top: 0em;
+  align-items: center;
+}
+
+/* line 41, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-errors {
+  list-style: none;
+  padding: 0px;
+}
+
+/* line 46, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-errors > li {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px 15px 17px 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: rgba(198, 61, 67, 0.25);
+  color: #3e1214;
+  text-align: center;
+}
+
+/* line 57, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-errors > li > a {
+  margin: auto;
+}
+
+/* line 61, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-input {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 402px;
+  padding: 12px 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/* line 72, /Users/andrewswe/Desktop/FullStackProject/app/assets/stylesheets/no_session/modal/modal_signup.scss */
+.signup-submit {
+  margin-top: 40px;
+  border-radius: 3px;
+  width: 394px;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #287FB8;
+  background-color: #287FB8;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  color: white;
+  color: #fff;
+  cursor: pointer;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ body {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  background-color: #e6e6e6;
+  top: 0;
+  padding-top: 63px;
+  position:
+ }
+
+.persistent-header {
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+  flex-flow: row wrap;
+  top: 0;
+  width: 100%;
+  min-height: 63px;
+  height: 63px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  justify-content: space-between;
+  z-index: 9;
+}

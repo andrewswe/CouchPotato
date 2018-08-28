@@ -1,0 +1,51 @@
+.user-dashboard-sidebar {
+  padding: 0px 10px;
+  width: 300px;
+  height: 100%;
+}
+
+.sidebar-elements-user-info {
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  margin: 10px auto;
+  position: relative;
+}
+
+.sidebar-user-info-header {
+  border-bottom: 2px solid rgba(0,0,0,0.15);
+  border-radius: 2px;
+  padding: 20px 20px 0 20px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-user-icon {
+  font-size: 225px;
+  margin-bottom: 25px;
+  text-align: center;
+  display: block;
+  background-image: image-url('astronaut.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // padding: 30px;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border: 4px solid #EAECEE;
+  overflow: hidden;
+}
+
+.sidebar-user-info-header > span {
+  margin: 0;
+  padding: 20px;
+}
+
+.sidebar-user-info-hosting-status {
+  padding: 20px 20px;
+}

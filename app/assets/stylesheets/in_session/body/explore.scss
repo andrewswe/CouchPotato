@@ -1,0 +1,94 @@
+.user-dashboard-main {
+  display: block;
+  padding: 0px 10px;
+  margin-right: 50px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.dashboard-cities {
+  background: #fff;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  color: #287FB8;
+}
+
+.explore-cities-header {
+  box-sizing: border-box;
+  display: flex;
+  line-height: 1.5px;
+  padding: 0px 0px 20px 20px;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+}
+
+.explore-cities-header > i{
+  font-size: 30px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.explore-cities-header > h2 {
+  padding-left: 5px;
+}
+
+.explore-cities-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.explore-cities-body > div {
+  box-shadow: 1px;
+  display: block;
+  height: 200px;
+  width: 30%;
+  background-size: cover;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.explore-cities-body > div:hover {
+  transform: scale(1.01,1.01);
+}
+
+.city-box-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 60%, transparent 90%);
+}
+
+.city-box-New.York {
+  background-image: image-url('city/newyork_img.jpg');
+}
+
+.city-box-San.Francisco {
+  background-image: image-url('city/sanfrancisco_img.jpg');
+}
+
+.city-box-DC {
+  background-image: image-url('city/dc_img.jpg');
+}
+
+.city-box-Los.Angeles {
+  background-image: image-url('city/losangeles_img.jpg');
+}
+
+.city-box-Rome {
+  background-image: image-url('city/rome_img.jpg');
+}
+
+.city-box-Paris {
+  background-image: image-url('city/paris_img.jpg');
+}

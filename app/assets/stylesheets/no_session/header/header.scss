@@ -1,0 +1,104 @@
+.nav-elements {
+  display: block;
+  max-width: 1280px;
+  margin-top: 3px;
+  width: 100%;
+}
+
+.logo {
+  background-image: image_url('headerLogo.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 13px;
+  margin-left: 20px;
+  color: #e07700;
+  height: 40px;
+  width: 200px;
+  min-width: 200px;
+  min-height: 40px;
+}
+
+.session-header {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.session-options {
+  list-style: none;
+  display: flex;
+  margin: 10px 20px 0px 0px;
+}
+
+
+.signup-btn {
+  margin: 0px 12px 0px 0px;
+  background-color: #287FB8;
+  border-color: #287FB8;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  max-width: 240px;
+  width: 160px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.signup-btn > a {
+  width: 134px;
+  height: 22px;
+  text-align: center;
+  font-style: normal;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1px;
+  padding: 8px 12px 8px 12px;
+}
+
+.login-btn {
+  margin: 0px 12px 0px 0px;
+  background-color: #fff;
+  border-color: #287FB8;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  border: 1px solid #287FB8;
+  color: #287FB8;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.login-btn > a {
+  width: 134px;
+  height: 22px;
+  text-align: center;
+  font-style: normal;
+  color: #287FB8;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1px;
+  padding: 8px 12px 8px 12px;
+}
+
+.demo-btn {
+  margin: 0px 12px 0px 0px;
+  background-color: #287FB8;
+  border-color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 1.5;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+}

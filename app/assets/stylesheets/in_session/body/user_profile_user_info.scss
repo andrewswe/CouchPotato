@@ -1,0 +1,77 @@
+.user-profile-info {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #287FB8;
+}
+
+.user-info-header {
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  padding: 20px;
+  color: #287FB8;
+}
+
+.user-info-header > a {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-info-body {
+  display: block;
+  box-sizing: border-box;
+}
+
+
+.user-info-body > p{
+  font-size: 15px;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px;
+}
+
+.user-spot-info {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.user-spot-info-header {
+  display: block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  padding: 20px;
+  color: #287FB8;
+}
+
+.user-spot-info-header > a {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-spot-info-body {
+  display: block;
+  box-sizing: border-box;
+}
+
+.user-spot-info-body > p {
+  font-size: 15px;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px;
+}

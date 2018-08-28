@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CouchPotato</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+      <%= favicon_link_tag asset_path('fav-logo.png'), :rel => 'icon', :type =>  'image/png' %>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      window.staticImages = {
+        landing_img: "<%=image_path("landing/couchsurfing_main_background.jpg")%>",
+        dc_img: "<%=image_path("city/dc_img.jpg")%>",
+        losangeles_img: "<%=image_path("city/losangeles_img.jpg")%>",
+        newyork_img: "<%=image_path("city/newyork_img.jpg")%>",
+        paris_img: "<%=image_path("city/paris_img.jpg")%>",
+        rome_img: "<%=image_path("city/rome_img.jpg")%>",
+        sanfrancisco_img: "<%=image_path("city/sanfrancisco_img.jpg")%>",
+        dc_banner: "<%=image_path("city/dc_banner.jpg")%>",
+        losangeles_banner: "<%=image_path("city/dc_banner.jpg")%>",
+        newyork_banner: "<%=image_path("city/dc_banner.jpg")%>",
+        paris_banner: "<%=image_path("city/dc_banner.jpg")%>",
+        rome_banner: "<%=image_path("city/dc_banner.jpg")%>",
+        sanfrancisco_banner: "<%=image_path("city/dc_banner.jpg")%>"
+      }
+    </script>
+    <%= yield %>
+  </body>
+</html>
